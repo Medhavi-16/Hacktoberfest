@@ -33,7 +33,9 @@ public class SumTrain {
     }
 
     public static short max(short a, short b) {
-
-        return a > b ? a : b;
+if(a>b)
+        return a;
+        else
+            return b;
     }
 }
